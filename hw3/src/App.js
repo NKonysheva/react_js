@@ -10,7 +10,7 @@ function App() {
       <button onClick={() => {
         setList([
           ...list,
-          `iten-${list.length + 1}`
+          `item-${list.length + 1}`
         ])
       }}>new</button>
       <RefExample list={list}/>
